@@ -10,6 +10,7 @@
         "trailing-comma": false,
         "quotemark": false,
         "no-trailing-whitespace": false,
-        "ordered-imports": false
+        "ordered-imports": false,
+        "arrow-parens": false
     }    
 }
