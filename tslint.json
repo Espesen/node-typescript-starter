@@ -8,6 +8,7 @@
     "rules": {
         "interface-name": [true, "never-prefix"],
         "trailing-comma": false,
-        "quotemark": false
+        "quotemark": false,
+        "no-trailing-whitespace": false
     }    
 }
