@@ -3,18 +3,24 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {    
+  "scripts": {
     "test": "nodemon -w lib node_modules/jasmine/bin/jasmine.js --config=jasmine.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/cheerio": "^0.22.16",
+    "@types/fs-extra": "^8.0.1",
     "@types/jasmine": "^2.8.2",
     "@types/node": "^8.5.1",
     "jasmine": "^2.8.0",
     "nodemon": "^1.14.1",
     "tslint": "^5.8.0",
     "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "fs-extra": "^8.1.0"
   }
 }

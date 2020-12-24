@@ -1,0 +1,2537 @@
+/* Generic styles */
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 11px;
+/*     font-size: 12px; */
+/*     font-size: 13px; */
+}
+img {
+    border: 0px;
+}
+a, .link, .linkki{
+    color: #906;
+    text-decoration: underline;
+    cursor: pointer;
+}
+a:hover, .link:hover {
+    color: #e7b;
+}
+input[type='text'], input[type='password'] {
+    border: solid 1px #999;
+    background-color: #fff;
+    padding: 3px;
+}
+select {
+    border: solid 1px #999;
+    background-color: #fff;
+    padding: 3px;
+}
+textarea {
+    border: solid 1px #999;
+    background-color: #fff;
+    padding: 3px;
+}
+.datepicker {
+    width: 80px;
+    text-align: right;
+}
+img.ui-datepicker-trigger {
+    vertical-align: middle;
+}
+.timepicker {
+    width: 40px;
+    text-align: right;
+}
+.wmax {
+    width: 100%;
+}
+.wmax_2 {
+    width: 97%;
+}
+.w500 {
+    width: 500px;
+}
+.w400 {
+    width: 400px;
+}
+.w350 {
+    width: 350px;
+}
+.w300 {
+    width: 300px;
+}
+.w240 {
+    width: 240px;
+}
+.w200 {
+    width: 200px;
+}
+.w150 {
+    width: 150px;
+}
+.w125 {
+    width: 125px;
+}
+.w100 {
+    width: 100px;
+}
+.w50 {
+    width: 50px;
+}
+.w100pc {
+    width: 100%;
+}
+.h150 {
+    height: 150px;
+}
+.w100pc_tdcont {
+    padding-right: 10px;
+}
+.h100 {
+    height: 100px;
+}
+.iw300 { /* For forcing a shiny (jQuery:chosen) select element to be inline */
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.intitletd { /* Input forms are higher than text, which means we need to push down the text a bit to make it pretty */
+    padding-top: 5px;
+}
+.blurry {
+    color: #595959;
+}
+hr.thin {
+    border: none;
+    border-bottom: 1px solid #999;
+}
+hr.thick {
+    border: none;
+    border-bottom: 10px solid #aaa;
+}
+.u {
+    text-decoration: underline;
+}
+.witharrow {
+    padding: 3px 3px 3px 30px;
+    background-image: url('circle_arrow_right.png');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+span.checkbox {
+    cursor: pointer;
+    white-space: nowrap;
+}
+span.checkbox img {
+    vertical-align: text-top;
+}
+.pcont { /* Generic container for paragraphs (pads left and right a bit) */
+    padding: 1px 10px;
+}
+.indent { /* Generic padding-left indentation */
+    padding-left: 40px;
+}
+
+/* Template styles */
+.template_button {
+    color: #fff;
+    font-weight: bold;
+    background-color: #a9195c;
+    border: solid 1px #a9195c;
+    padding: 3px 3px 3px 25px;
+    background-image: url('circle_arrow_right.png');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    cursor: pointer;
+}
+a.template_button {
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+}
+.template_remove_buttons { /* span or div area for grouping the remove buttons in */
+    /* float: right; */
+    margin-left: 100px;
+}
+.template_remove_button {
+    color: #fff;
+    font-weight: bold;
+    background-color: #a9195c;
+    border: solid 1px #a9195c;
+    padding: 3px 6px 3px 26px;
+    background-image: url('circle_cross.png');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    cursor: pointer;
+}
+a.template_remove_button {
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+}
+.template_button_white_add {
+    font-weight: bold;
+    border: solid 1px #999;
+    padding: 3px 6px 3px 26px;
+    background-image: url('button_white_add_bg.png');
+    background-position: left center;
+    box-shadow: 0px 2px 3px #000;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+
+.template_button_white_add2 {
+    font-weight: bold;
+    border: solid 1px #999;
+    width: 200px;
+    padding: 3px 6px 3px 26px;
+    background-image: url('button_white_add_bg.png');
+    background-position: left center;
+    text-align: left;
+    box-shadow: 0px 2px 3px #000;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+
+a.template_button_white_add {
+    color: #000;
+    padding: 4px 6px 4px 26px;
+}
+.template_button_white_generic {
+    font-weight: bold;
+    border: solid 1px #999;
+    padding: 3px 6px 3px 26px;
+    background-image: url('button_white_generic_bg.png');
+    background-position: left center;
+    box-shadow: 0px 2px 3px #000;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+.template_button_white {
+    font-weight: bold;
+    border: solid 1px #999;
+    padding: 3px 6px 3px 26px;
+    background-image: url('button_white_bg.png');
+    background-position: left center;
+    box-shadow: 0px 2px 3px #000;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+a.template_button_white_generic {
+    color: #000;
+    padding: 4px 6px 4px 26px;
+}
+.template_button_white_print {
+    font-weight: bold;
+    border: solid 1px #999;
+    padding: 3px 6px 3px 26px;
+    background-image: url('button_white_print_bg.png');
+    background-position: left center;
+    box-shadow: 0px 2px 3px #000;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+a.template_button_white_print {
+    color: #000;
+    padding: 4px 6px 4px 26px;
+}
+.template_button_white_print.no_shadow {
+    box-shadow: none;
+}
+.template_button_white_close {
+    font-weight: bold;
+    border: solid 1px #999;
+    padding: 3px 6px 3px 26px;
+    background-image: url('button_white_close_bg.png');
+    background-position: left center;
+    box-shadow: 0px 2px 3px #000;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+
+.template_button_white_close2 {
+    font-weight: bold;
+    border: solid 1px #999;
+    width: 200px;
+    padding: 3px 6px 3px 26px;
+    background-image: url('button_white_close_bg.png');
+    background-position: left center;
+    box-shadow: 0px 2px 3px #000;
+    cursor: pointer;
+    color: #000;
+    text-align:left;
+    text-decoration: none;
+}
+
+a.template_button_white_close {
+    color: #000;
+    padding: 4px 6px 4px 26px;
+}
+.template_button.template_varaus_remove_ceremony {
+    background-image: url('circle_cross.png');
+}
+.template_button.template_f_remove_from_ceremony{
+    background-image: url('circle_cross.png');
+}
+.template_header {
+    min-height: 80px;
+    background-color: #ededed;
+}
+.template_header p {
+    color: #906;
+}
+.template_header b {
+    color: #000;
+}
+.template_userarea {
+    float: left;
+    background-image: url('header_separator.png');
+    background-repeat: no-repeat;
+    background-position: right 19px;
+    padding: 10px 30px 1px 30px;
+    height: 50px;
+}
+.template_userarea p {
+    background-image: url('header_user_icon.png');
+    background-repeat: no-repeat;
+    background-position: left 5px;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 10px 40px;
+    cursor: pointer;
+}
+.template_datearea {
+    float: left;
+    background-image: url('header_separator.png');
+    background-repeat: no-repeat;
+    background-position: right 19px;
+    padding: 10px 30px 1px 30px;
+    height: 50px;
+}
+.template_datearea p {
+    background-image: url('header_calendar_icon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin: 10px 0px 0px 0px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+.template_datearea p.disabled { cursor: default !important; }
+.template_messagearea {
+    float: left;
+    background-image: url('header_separator.png');
+    background-repeat: no-repeat;
+    background-position: right 19px;
+    padding: 10px 30px 1px 30px;
+    height: 50px;
+}
+.template_messagearea p {
+    background-image: url('header_message_icon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin: 15px 0px 0px 0px;
+    padding-left: 50px;
+    cursor: pointer;
+}
+.template_favoritesarea {
+    float: left;
+    padding: 10px 30px 10px 30px;
+    height: 50px;
+}
+.template_favoritesarea img {
+    margin: 5px 10px 0px 0px;
+    cursor: pointer;
+}
+.template_supportarea {
+    float: right;
+    background-image: url('header_separator.png');
+    background-repeat: no-repeat;
+    background-position: left 19px;
+    padding: 10px 30px 1px 30px;
+    height: 50px;
+}
+.template_supportarea img {
+    margin-top: 5px;
+}
+.template_fontarea {
+    float: right;
+    background-image: url('header_separator.png');
+    background-repeat: no-repeat;
+    background-position: left 19px;
+    padding: 10px 30px 1px 30px;
+    height: 50px;
+}
+.template_fontarea p {
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin: 10px 0px 0px 0px;
+}
+.template_increase_font {
+    font-size: 200%;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.template_decrease_font {
+    font-weight: bold;
+    padding-left: 5px;
+}
+.template_mobilearea {
+    float: right;
+    background-image: url('header_separator.png');
+    background-repeat: no-repeat;
+    background-position: left 19px;
+    padding: 12px 30px 1px 30px;
+    height: 50px;
+}
+.template_mobilearea p {
+    background-image: url('header_mobile_icon.png');
+    background-repeat: no-repeat;
+    background-position: left 0;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 14px 40px;
+    cursor: pointer;
+}
+.template_toolarea {
+    float: right;
+    background-image: url('header_separator.png');
+    background-repeat: no-repeat;
+    background-position: left 19px;
+    padding: 12px 30px 1px 30px;
+    height: 50px;
+}
+.template_toolarea p {
+    margin: 5px 0px 0px 0px;
+    background-image: url('circle_arrow_right.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 3px 5px 3px 25px;
+}
+.template_header_stopper {
+    clear: both;
+}
+.template_main_footer {
+    height: 49px;
+    margin: 20px 259px 0px 65px;
+    background-image: url('footer_bg.png');
+    background-repeat: repeat-x;
+    background-position: center center;
+    text-align: center;
+}
+.template_main_footer img {
+    vertical-align: middle;
+}
+.template_main_footer.wide {
+    margin: 20px 36px 0px 65px;
+}
+.template_main_footer.menulock {
+    margin-left: 236px;
+}
+.template_error {
+    background-image: url('error_bg.png');
+    background-position: center center;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0px 2px 5px #000;
+    font-weight: bold;
+    color: #fff;
+}
+.template_error span.link, .template_error a { color: #fff; }
+.template_notice {
+    background-image: url('notice_bg.png');
+    background-position: center center;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0px 2px 5px #000;
+    font-weight: bold;
+}
+.content_error {
+    background-color: #fab;
+}
+.template_sysmessages .template_error, .template_sysmessages .template_notice {
+    cursor: pointer;
+}
+.template_mainmenu {
+    position: absolute;
+    width: 233px;
+    padding: 3px 0px;
+    z-index: 700;
+    cursor: pointer;
+}
+.template_mainmenu.contracted {
+    left: -171px;
+}
+.template_mainmenu.contracted .template_submenu_content a {
+    margin-left: 135px;
+    padding-left: 5px;
+}
+.template_mainmenu_top {
+    background-image: url('sidemenu_top.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    height: 6px;
+}
+.template_mainmenu_bottom {
+    background-image: url('sidemenu_bottom.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    height: 6px;
+}
+.template_mainmenu_mid {
+    background-image: url('sidemenu_mid.png');
+    background-position: right;
+    background-repeat: repeat-y;
+    min-height: 130px;
+}
+.template_mainmenu_bar {
+    float: right;
+    cursor: pointer;
+}
+.template_mainmenu_bar p {
+    margin: 0px;
+    padding: 0px 3px 0px 0px;
+}
+.template_mainmenu_content {
+    padding-top: 1px;
+    width: 200px;
+}
+.template_mainmenu_entry {
+    width: 200px;
+    height: 30px;
+}
+.template_mainmenu_entry_main {
+    height: 29px;
+    background-color: #595959;
+}
+.template_mainmenu_entry_main p {
+    margin: 0px;
+    height: 29px;
+    line-height: 29px;
+    color: #fff;
+    font-weight: bold;
+    background-image: url('white_arrow_right_small.png');
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.selected .template_mainmenu_entry_main {
+    background-color: #373737;
+}
+.selected .template_mainmenu_entry_main p {
+    background-image: url('white_arrow_down_small.png');
+}
+.template_mainmenu_symbol {
+    display: block;
+    height: 29px;
+    width: 29px;
+    float: right;
+    background-color: #cc0d70;
+    cursor: pointer;
+}
+.template_mainmenu_symbol:hover {
+    background-color: #7b0843;
+}
+.menusymbol_calendar {
+    background-image: url('menusymbol_calendar.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.menusymbol_reservations {
+    background-image: url('menusymbol_reservations.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.menusymbol_misc {
+    background-image: url('menusymbol_misc.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.menusymbol_messages {
+    background-image: url('menusymbol_messages.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.menusymbol_settings {
+    background-image: url('menusymbol_settings.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.menusymbol_asiakasrekisteri {
+    background-image: url('menusymbol_crm.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.menusymbol_support {
+    background-image: url('menusymbol_support.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.template_submenu {
+    background-color: #fff;
+    border-top: solid 2px #ededed;
+    border-bottom: solid 2px #ededed;
+    width: 200px;
+    display: none;
+}
+.selected .template_submenu {
+    display: block;
+}
+.template_submenu_content {
+    padding: 0px 4px;
+}
+.template_submenu_content p {
+    margin: 0px;
+    padding: 0px 0px 0px 32px;
+    border-bottom: solid 1px #bbb;
+    height: 27px;
+    line-height: 27px;
+    font-weight: 500;
+    background-image: url('red_arrow_right_small.png');
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+/* submenu additions */
+.template_submenu_content p.subadds{
+    background-image: url('red_arrow_right_small_dots.png');
+    background-position: 4px center;
+}
+.template_submenu_content p.subadds_open{
+    line-height: normal;
+    height: auto;
+    background-position: 20px 8px;
+    background-image: url('red_arrow_down_small.png');
+    padding-top: 6px;
+}
+.template_submenu_content .subadds:hover a { text-decoration: none;}
+.template_submenu_content .subadds_parent{ margin-bottom: 5px; display: block; width: 158px; }
+.template_submenu_content a.subadds_parent:hover{text-decoration: underline;}
+.template_submenu_content .subadds span a {display: none;}
+.template_submenu_content .subadds:hover span a {display: none;}
+.template_submenu_content .subadds_open span a{ display: block; }
+.template_submenu_content .subadds_open:hover span a{ display: block;}
+.template_submenu_content .subadds_open:hover a { position: relative;}
+.template_submenu_content .subadds_item a {font-weight: normal; }
+.template_submenu_content .subadds_item a:hover {text-decoration: underline; }
+.template_submenu_content .subadds_open a{
+    line-height: normal;
+    height: auto;
+    text-decoration: none;
+    display: block;
+}
+/* submenu additions end */
+.template_submenu_content p.selected {
+    font-weight: bold;
+}
+.template_submenu_content a {
+    color: #555;
+    height: 27px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.template_submenu_content p:hover a {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    text-decoration: underline;
+    padding-right: 5px;
+}
+.template_mainmenu.contracted .template_submenu_content p:hover a {
+    box-shadow: 0px 2px 5px #000;
+}
+.template_mainmenu .template_mainmenu_lock {
+    background-image: url("sidemenu_mid.png");
+    background-position: right center;
+    background-repeat: repeat-y;
+    margin: 0px;
+    padding: 5px 40px 1px 10px;
+    color: #000;
+    text-align: right;
+}
+.template_mainmenu .template_mainmenu_lock_box {
+    background-image: url('unlock-gray.png');
+    background-repeat: no-repeat;
+}
+.template_mainmenu .template_mainmenu_lock_box.checked {
+    background-image: url('lock-gray.png');
+}
+.template_mainmenu .template_mainmenu_lock_box img {
+    opacity: 0.0;
+    filter: alpha(opacity=0); /* For IE8 and earlier */
+}
+
+.template_sidecal {
+    float: right;
+    width: 256px;
+    padding: 3px 0px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.template_sidecal.contracted {
+    width: 33px;
+}
+.template_sidecal2 {
+    width: 256px;
+}
+.template_sidecal_top {
+    background-image: url('sidecalendar_top.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    height: 6px;
+}
+.template_sidecal_bottom {
+    background-image: url('sidecalendar_bottom.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    height: 6px;
+}
+.template_sidecal_mid {
+    background-image: url('sidecalendar_mid.png');
+    background-position: right;
+    background-repeat: repeat-y;
+    min-height: 170px;
+}
+.template_sidecal_bar {
+    float: left;
+    cursor: pointer;
+}
+.template_sidecal_bar p {
+    margin: 0px;
+    padding: 0px 0px 0px 3px;
+}
+.template_sidecal_content {
+    margin-left: 34px;
+    padding: 1px 0px;
+}
+.template_sidecal_search {
+    background-image: url('search_background.png');
+    background-position: center;
+    padding: 17px 0px;
+    margin-right: 3px;
+}
+.template_sidecal_search p {
+    margin: 0px;
+    text-align: right;
+}
+.template_sidecal_search input {
+    width: 182px;
+    /*background-image: url('input_search.png');
+    background-position: right center;
+    background-repeat: no-repeat;*/
+}
+.template_sidecal_search .search_image {
+    position: relative;
+    right: 23px;
+    top: 3px;
+}
+.template_sidecal_search input::-ms-clear {
+    display: none;
+}
+.template_sidecal .template_minical_day {
+    cursor: pointer;
+}
+.template_logoarea p {
+    margin: 0px;
+    text-align: right;
+    padding: 10px 20px 10px 0px;
+}
+.template_intra_area p {
+    margin: 0 0px 0 78px;
+    text-align: center;
+    padding: 10px;
+    background: white;
+    border: 1px solid #9a9a9a;
+    width: 80px;
+}
+.template_intra_area p a {
+    text-decoration: none;
+}
+.template_notifications {
+    margin: 0px 256px 0px 65px;
+    height: 35px;
+}
+.template_notifications.wide {
+    margin: 0px 33px 0px 65px;
+}
+.template_notifications.menulock {
+    margin-left: 236px;
+}
+.template_notification_div {
+    width: 25%;
+    height: 29px;
+    float: left;
+    margin-top: 3px;
+    display: none;
+}
+.template_notifications p.template_notification_p {
+    margin: 0px 3px 0px 0px;
+    line-height: 29px;
+    height: 29px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+}
+.template_notifications .template_level1 {
+    display: block;
+    height: 29px;
+    line-height: 29px;
+    padding: 0px 10px 0px 40px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+}
+.template_notifications .template_level2 {
+    display: block;
+    height: 29px;
+    line-height: 29px;
+    padding-right: 20px;
+    background-image: url('white_arrow_right.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+.template_notifications .template_level3 {
+    display: block;
+    height: 29px;
+    line-height: 29px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.template_notifications img {
+    position: relative;
+    right: 0px;
+    float: right;
+}
+div.template_notification_messages p.template_notification_p {
+    background-image: url('notification_messages_bg.png');
+}
+div.template_notification_messages .template_level1 {
+    background-image: url('notification_messages_icon.png');
+}
+div.template_notification_calendar p.template_notification_p {
+    background-image: url('notification_calendar_bg.png');
+}
+div.template_notification_calendar .template_level1 {
+    background-image: url('notification_calendar_icon.png');
+}
+div.template_notification_news p.template_notification_p {
+    background-image: url('notification_news_bg.png');
+}
+div.template_notification_news .template_level1 {
+    background-image: url('notification_news_icon.png');
+}
+div.template_notification_reminders {
+    display: block;
+}
+div.template_notification_reminders p.template_notification_p {
+    background-image: url('notification_reminders_bg.png');
+    color: #000;
+}
+div.template_notification_reminders .template_level1 {
+    background-image: url('notification_reminders_icon.png');
+}
+div.template_notification_reminders .template_level2 {
+    background-image: url('gray_arrow_right.png');
+}
+div.template_notification_reminders .template_level2.open {
+    background-image: url('gray_arrow_down.png');
+}
+.template_main_content {
+    margin: 0px 259px 0px 65px;
+    border: solid 1px #777;
+}
+.template_main_inner {
+    padding: 1px 10px;
+}
+.template_main_inner * {
+    font-size: inherit;
+}
+td { vertical-align: top; }
+th { text-align: left; }
+.template_main_content.wide {
+    margin: 0px 36px 0px 65px;
+}
+.template_main_content.menulock {
+    margin-left: 236px;
+}
+.template_title {
+    background-image: url('title_bg.png');
+    background-position: center center;
+    min-height: 31px;
+}
+.template_title h1 {
+    background-image: url("white_arrow_right.png");
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    min-height: 21px;
+    line-height: 21px;
+    margin: 0;
+    padding: 5px 0px 5px 30px;
+}
+.template_title .template_helplink {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+.template_minical {
+    width: 208px;
+}
+.template_minical td {
+    width: 12.5%;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.template_minical_corner {
+}
+.template_minical_daytitle {
+    background-color: #c0c0c0;
+    border-right: solid 1px #fff;
+    border-bottom: solid 1px #c0c0c0;
+    font-weight: bold;
+}
+.template_minical_week {
+    background-color: #c0c0c0;
+    border-right: solid 1px #c0c0c0;
+    border-bottom: solid 1px #fff;
+    font-weight: bold;
+}
+.template_minical_day { /* Normal minical day: black on white */
+    border-right: solid 1px #c0c0c0;
+    border-bottom: solid 1px #c0c0c0;
+    background-color: #fff;
+    background-image: url('minical_nocontent.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    color: #000;
+    cursor: pointer;
+}
+.template_minical_day.selected { /* Selected: red border */
+    border: 1px solid #a71a63;
+    box-shadow: 0 0 0 1px #a71a63 inset;
+}
+.template_minical_day.today { /* Today: Bold on yellow */
+    font-weight: bold;
+    background-color: #ffa;
+    text-shadow: 1px 1px #906;
+}
+.template_minical_day:hover { /* Hover: purple bg, black fg, overrides all */
+    /* background-color: #e4d5e7 !important; (#14089) */
+    background-color: #e4d5e7;
+    color: #000 !important;
+}
+.template_minical_day.disabled { /* Disabled: Gray bg, gray fg, no corner */
+    background-color: #ddd;
+    background-image: none;
+    color: #555;
+}
+.template_minical_day.content { /* Calendar content: Black corner */
+    background-image: url('minical_content_black.png');
+}
+.template_minical_day.content.vacation_only { /* Calendar content that is vacation only: White corner */
+    background-image: url('minical_nocontent.png');
+}
+.template_minical_day.weekend {
+    background-color: #efefef;
+}
+.template_minical_day.flag {
+    border: 1px solid blue;
+    box-shadow: 0 0 0 1px blue inset;
+}
+.template_minical_day.holy {
+    border: 1px solid red;
+    box-shadow: 0 0 0 1px red inset;
+}
+.template_minical_day.holyflag {
+    border: 1px solid red;
+    box-shadow: 0 0 0 2px blue inset;
+}
+.template_sidecal_calendar_toolbar {
+    margin-right: 3px;
+    padding-top: 8px;
+}
+.template_sidecal_calendar_toolbar p {
+    margin: 0px;
+    height: 28px;
+    line-height: 28px;
+    background-image: url('title_bg.png');
+    background-position: center center;
+    background-repeat: repeat-x;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+}
+.template_sidecal_calendar_prev {
+    float: left;
+    height: 28px;
+    width: 28px;
+    background-image: url('white_arrow_left_small.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.template_sidecal_calendar_next {
+    float: right;
+    height: 28px;
+    width: 28px;
+    background-image: url('white_arrow_right_small.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.template_sidecal_calendar_month {
+    height: 28px;
+    line-height: 28px;
+    cursor: pointer;
+    display: block;
+    margin: 0px 30px;
+}
+.template_sidecal_calendar_toolbar span:hover {
+    background-color: #666;
+}
+.template_sidecal_calendar {
+    padding: 8px 3px 8px 0px;
+    text-align: center;
+}
+.template_sidecal_calendar table {
+    margin: auto;
+}
+div.template_reminders_dropdown {
+    display: none;
+    width: 100%;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+div.template_reminders_dropdown2 {
+    margin: 0px;
+    padding: 1px 0px;
+    background-color: #ffeb00;
+    position: relative;
+    top: 29px;
+    margin-right: 3px;
+    display: block;
+    z-index: 150;
+}
+.template_reminders_dropdown p {
+    /* font-size: 10px; */
+    padding: 1px 15px;
+    margin: 5px 0px;
+}
+.template_reminders_dropdown span {
+    display: block;
+    margin: 2px;
+    padding: 0px;
+}
+.template_reminders_list {
+    padding: 0px 1px;
+}
+.template_reminders_list p.reminders {
+    border-top: solid 1px #ffa800;
+    margin: 0px;
+    background-color: #ff0;
+    background-image: url('reminder_entry_decoration.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.template_reminders_list .remove {
+    float: right;
+}
+.template_reminders_list p.future { background: #fff !important; }
+.template_reminders_list p.past { background: #efefef !important;  }
+.template_dark_layer {
+    background-image: url('dark_transparent_pixel.png');
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    overflow: auto;
+}
+.template_reminders_list p span.text,
+.template_reminders_list2 p span.text { float: left; }
+.template_reminders_list p span.tools,
+.template_reminders_list2 p span.tools { float: right; }
+.template_reminders_list p span.tools img,
+.template_reminders_list2 p span.tools img { margin-left: 10px; }
+
+/* Mouse-over popup */
+.template_minipop {
+    width: 400px;
+    position: absolute;
+    z-index: 800;
+    display: none;
+}
+.template_minipop .template_topleft {
+    background-image: url('minipop_topleft.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+}
+.template_minipop .template_topright {
+    background-image: url('minipop_topright.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+    padding-right: 24px;
+}
+.template_minipop .template_top {
+    background-image: url('minipop_top.png');
+}
+.template_minipop .template_top h2 {
+    margin: 0px;
+    padding: 7px 10px 1px 10px;
+    color: #fff;
+    line-height: 30px;
+    overflow: hidden;
+}
+.template_minipop .template_left {
+    background-image: url('minipop_left.png');
+    background-position: top left;
+    background-repeat: repeat-y;
+    padding-left: 10px;
+}
+.template_minipop .template_right {
+    background-image: url('minipop_right.png');
+    background-position: top right;
+    background-repeat: repeat-y;
+    padding-right: 24px;
+}
+.template_minipop .template_center {
+    background-color: #fff;
+    padding: 1px;
+}
+.template_minipop .template_bottomleft {
+    background-image: url('minipop_bottomleft.png');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+}
+.template_minipop .template_bottomright {
+    background-image: url('minipop_bottomright.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    padding-right: 24px;
+}
+.template_minipop .template_bottom {
+    background-image: url('minipop_bottom.png');
+    height: 11px;
+}
+.template_minipop .template_arrow {
+    width: 24px;
+    height: 22px;
+    background-image: url('minipop_arrow.png');
+    left: 376px;
+    position: absolute;
+}
+.template_minipop .template_arrow_left {
+    width: 24px;
+    height: 22px;
+    background-image: url('minipop_arrow_left.png');
+    left: -14px;
+    position: absolute;
+}
+.template_minipop .template_entry {
+    margin: 5px;
+    padding: 5px 0px;
+}
+.template_minipop .template_separator {
+    border-bottom: 1px solid #999;
+}
+.template_minipop_title {
+    margin: 0px;
+    font-weight: bold;
+}
+.template_minipop_content {
+    margin: 0px 0px 0px 20px;
+    overflow: hidden;
+}
+
+/* Generic popup */
+.template_popup {
+    box-shadow: 0px 2px 5px #000;
+}
+.template_popup_fullwidth { /* large non-movable, like ceremony editor */
+    width: 90%;
+    margin: 50px auto;
+}
+.template_popup_extra_large { 
+    width: 1400px;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+}
+.template_popup_large { /* large movable, like event editor */
+    width: 800px;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+}
+.template_popup_medium { /* medium movable, like notifications */
+    width: 500px;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+}
+.template_popup_small { /* small movable, like dialogs */
+    width: 250px !important;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+}
+.template_popup.ui-draggable .template_title:first-child,
+.template_popup.ui-draggable .template_footer:last-child {
+    cursor: move;
+}
+.template_popup .template_title .template_close, .template_popup .template_footer .template_close {
+    background-image: url("title_separator.png");
+    background-position: left center;
+    background-repeat: repeat-y;
+    cursor: pointer;
+    float: right;
+    height: 31px;
+    margin: 0;
+    width: 31px;
+}
+.template_popup .template_title .template_close_icon, .template_popup .template_footer .template_close_icon {
+    background-image: url("white_x.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 31px;
+    width: 31px;
+}
+.template_popup .template_main {
+    background-color: #fff;
+    padding: 1px;
+}
+.template_popup .template_footer {
+    background-image: url('title_bg.png');
+    background-position: center center;
+    height: 31px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Popup for notifications */
+.template_notification_popup { /* Deprecated, use together with template_popup_medium for size */
+    top: 100px;
+    left: 100px;
+    position: absolute;
+}
+.template_notification_popup .template_main {
+    padding: 5px;
+}
+.template_notification_popup table {
+    width: 100%;
+}
+.template_notification_popup .template_right {
+    text-align: right;
+}
+.template_notification_popup .template_detail {
+    padding-left: 20px;
+    color: #333;
+}
+
+/* Popup for dialogs */
+.template_dialog {
+    width: auto;
+    position: absolute;
+    background-color: #fff;
+    border: solid 1px #666;
+    box-shadow: 0px 2px 5px #000;
+    padding: 2px;
+}
+.template_dialog .template_title {
+    background-image: url('popmenu_bg.png');
+    background-position: center center;
+    color: #fff;
+    min-height: 25px;
+    cursor: move;
+}
+.template_dialog .template_title h2 {
+    min-height: 25px;
+    line-height: 25px;
+    /* font-size: 12px; */
+    font-size: 105%;
+    margin: 0px;
+    padding: 0px 20px;
+    color: #fff;
+}
+.template_dialog .template_close_icon {
+    background-image: url('white_x.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    height: 17px;
+    width: 17px;
+    margin: 4px 4px 0px 0px;
+    float: right;
+    cursor: pointer;
+}
+.template_red_x_icon {
+    background-image: url("red_x.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    display: block;
+    cursor: pointer;
+}
+.template_dialog .template_main {
+    margin: 0px;
+    padding: 1px 10px;
+}
+.template_dialog .template_title {
+    min-height: 25px;
+}
+.template_dialog .template_footer {
+    margin: 0px;
+    padding: 1px 10px;
+}
+.template_dialog .template_footer p {
+    margin: 0px;
+    border-top: solid 1px #999;
+    height: 50px;
+    line-height: 50px;
+}
+.template_dialog .template_footer .template_button {
+    background-image: url("button_white_generic_bg.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: 1px solid #999;
+    color: #000;
+    font-size: 105%;
+    font-weight: bold;
+    box-shadow: 0px 2px 3px #000;
+    margin-right: 10px;
+}
+.template_dialog .template_footer .template_cancel {
+    background-image: url("button_white_close_bg.png");
+    float: right;
+    margin: 12px 0px 0px 3px;
+}
+.template_dialog .template_footer .template_save {
+    background-image: url("button_white_add_bg.png");
+}
+.template_dialog_popup { /* Deprecated, use together with template_popup_small for size */
+    width: auto;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+}
+.template_dialog_popup .template_main {
+    padding: 1px 11px;
+}
+
+/* Popup menu */
+.template_popmenu {
+    /*
+    width: 200px;
+    */
+    min-width: 200px;
+    position: absolute;
+    background-color: #fff;
+    border: solid 1px #666;
+    box-shadow: 0px 2px 5px #000;
+}
+.template_popmenu ul {
+    margin: 0px;
+    padding: 2px 0px 0px 2px;
+    list-style-type: none;
+}
+.template_popmenu li {
+    margin: 0px;
+    padding: 0px 2px 2px 0px;
+}
+.template_popmenu b {
+    display: block;
+    margin: 0px;
+    padding: 2px;
+    background-image: url('popmenu_bg.png');
+    background-position: center center;
+    color: #fff;
+}
+.template_popmenu .template_close {
+    float: right;
+    padding: 2px 5px 2px 2px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.template_popmenu a, .template_popmenu .link {
+    display: block;
+    margin: 0px;
+    padding: 2px 2px 2px 10px;
+}
+.template_popmenu a:hover, .template_popmenu .link:hover {
+    background-image: url('title_bg.png');
+    background-position: center center;
+    color: #fff;
+}
+.template_popmenu hr {
+    margin: 0px;
+}
+.template_ceremony_popup {
+    width: 90%;
+    min-width: 780px;
+    margin: 50px auto;
+}
+.template_kopioivaraus_popup {
+    width: 800px;
+    margin: 50px auto;
+}
+
+/* Generic minicalendar list */
+.template_minical_list {
+    height: 600px;
+    overflow: auto;
+    position: absolute;
+    width: 230px;
+}
+.template_minical_list .template_title {
+    color: #fff;
+    font-weight: bold;
+    height: auto;
+    margin: 5px 0px 0px 0px;
+    padding: 3px 0px;
+    text-align: center;
+    width: 208px;
+}
+.template_minical_list .template_minical_corner,
+.template_minical_list .template_minical_daytitle,
+.template_minical_list .template_minical_week,
+.template_minical_list .template_minical_day {
+    cursor: pointer;
+}
+.template_minical_list .template_minical_day.secondary {
+    background: pink;
+}
+.template_minical_list .template_minical_day.content {
+    background-color: #a71a63;
+    background-image: none;
+    color: #fff;
+}
+.template_minical_list .template_minical_morecals_up2,
+.template_minical_list .template_minical_morecals_up1,
+.template_minical_list .template_minical_morecals_down1,
+.template_minical_list .template_minical_morecals_down2 {
+    background-image: url('title_bg.png');
+    background-position: center center;
+    cursor: pointer;
+    width: 208px;
+}
+.template_minical_list .template_minical_morecals_up2 span,
+.template_minical_list .template_minical_morecals_up1 span,
+.template_minical_list .template_minical_morecals_down1 span,
+.template_minical_list .template_minical_morecals_down2 span {
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 20px;
+}
+.template_minical_list .template_minical_morecals_up2 span {
+    background-image: url('white_arrow_up2_small.png');
+}
+.template_minical_list .template_minical_morecals_up1 span {
+    background-image: url('white_arrow_up_small.png');
+}
+.template_minical_list .template_minical_morecals_down1 span {
+    background-image: url('white_arrow_down_small.png');
+}
+.template_minical_list .template_minical_morecals_down2 span {
+    background-image: url('white_arrow_down2_small.png');
+}
+
+/* Ceremony editor */
+.template_ceremony_popup td.maincol {
+    vertical-align: top;
+}
+.template_ceremony_popup input[type='radio'] {
+    vertical-align: middle;
+}
+.template_ceremony_popup .template_varaus_maincols {
+    width: 100%;
+}
+.template_ceremony_popup .template_varaus_minicals_area {
+    margin: 0px;
+    padding: 1px;
+}
+.template_ceremony_popup .template_varaus_minicals_area p {
+    margin: 5px 0px;
+}
+.template_ceremony_popup p.template_varaus_toistuvaisuus {
+    margin-left: 10px;
+}
+.template_ceremony_popup p.template_varaus_toistuvaisuus img {
+    vertical-align: middle;
+    cursor: pointer;
+}
+.template_varaus_toistodialog td {
+    vertical-align: middle;
+    padding: 5px;
+}
+.template_varaus_toistodialog td.intitletd {
+    font-weight: bold;
+    color: #906;
+}
+.template_varaus_toistodialog span.checkbox {
+    margin: 0px 5px;
+}
+.template_varaus_toistodialog span.checkbox img {
+    margin-right: 3px;
+}
+.template_ceremony_popup h2 {
+    font-size: 14px;
+    padding: 0px 0px 0px 45px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    font-weight: normal;
+    height: 38px;
+}
+.template_ceremony_popup h2 b {
+    display: block;
+    padding-top: 10px;
+    color: #A71A63;
+}
+.template_ceremony_popup .template_varaus_clock_header {
+    background-image: url("varaus_time_icon.png");
+    background-position: 15px 10px;
+    background-repeat: no-repeat;
+    width: 210px;
+}
+.template_ceremony_popup  h2.template_varaus_clock_header {
+    height: 40px;
+    padding-left: 70px;
+    width: auto;
+    padding-bottom: 10px;
+}
+.template_ceremony_popup .template_varaus_main_time_table {
+    margin: auto;
+    padding: 0px 0px 10px 0px;
+}
+.template_ceremony_popup .template_varaus_main_time_table td {
+    vertical-align: middle;
+}
+.template_ceremony_popup .template_varaus_text_header {
+    background-image: url("varaus_text_icon.png");
+}
+.template_ceremony_popup .template_varaus_talk_header {
+    background-image: url("varaus_talk_icon.png");
+}
+.template_ceremony_popup .template_varaus_users_header {
+    background-image: url("varaus_users_icon.png");
+}
+.template_ceremony_popup .template_varaus_house_header {
+    background-image: url("varaus_house_icon.png");
+}
+.template_ceremony_popup .secure {
+    background-color: #ddd;
+}
+.template_ceremony_popup textarea.disabled {
+    background-color: #ddd;
+}
+.template_ceremony_popup textarea, .template_ceremony_popup .textareaClone {
+    min-height: 100px;
+}
+.template_ceremony_popup .template_varaus_minicals {
+    width: 230px;
+    margin-left: 5px;
+}
+.template_ceremony_popup .template_varaus_minical_scroller {
+    max-height: 525px;
+    overflow: auto;
+}
+.template_ceremony_popup .template_varaus_minicals .template_title {
+    color: #fff;
+    font-weight: bold;
+    height: auto;
+    margin: 5px 0px 0px 0px;
+    padding: 3px 0px;
+    text-align: center;
+    width: 208px;
+    cursor: pointer !important;
+}
+.template_ceremony_popup .template_minical_corner,
+.template_ceremony_popup .template_minical_daytitle,
+.template_ceremony_popup .template_minical_week {
+    cursor: pointer;
+}
+.template_ceremony_popup .template_minical_day.secondary {
+    background: pink;
+}
+.template_ceremony_popup .template_minical_day.content {
+    background-color: #a71a63;
+    background-image: none;
+    color: #fff;
+}
+.template_ceremony_popup .template_varaus_morecals_up2,
+.template_ceremony_popup .template_varaus_morecals_up1,
+.template_ceremony_popup .template_varaus_morecals_down1,
+.template_ceremony_popup .template_varaus_morecals_down2 {
+    background-image: url('title_bg.png');
+    background-position: center center;
+    cursor: pointer;
+    width: 208px;
+}
+.template_ceremony_popup .template_varaus_morecals_up2 span,
+.template_ceremony_popup .template_varaus_morecals_up1 span,
+.template_ceremony_popup .template_varaus_morecals_down1 span,
+.template_ceremony_popup .template_varaus_morecals_down2 span {
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 20px;
+}
+.template_ceremony_popup .template_varaus_morecals_up2 span {
+    background-image: url('white_arrow_up2_small.png');
+}
+.template_ceremony_popup .template_varaus_morecals_up1 span {
+    background-image: url('white_arrow_up_small.png');
+}
+.template_ceremony_popup .template_varaus_morecals_down1 span {
+    background-image: url('white_arrow_down_small.png');
+}
+.template_ceremony_popup .template_varaus_morecals_down2 span {
+    background-image: url('white_arrow_down2_small.png');
+}
+.template_ceremony_popup .template_varaus_user_row.inactive {
+    color: #906;
+}
+.template_ceremony_popup .template_varaus_user_row:hover,
+.template_ceremony_popup .template_varaus_office_row:hover {
+    background-color: #ccc;
+}
+.template_ceremony_popup .template_varaus_user_row td,
+.template_ceremony_popup .template_varaus_office_row td {
+    padding: 2px 2px;
+    vertical-align: middle;
+}
+.template_ceremony_popup .template_varaus_rightmost {
+    width: 37%;
+}
+.template_ceremony_popup .template_varaus_user_row .remove_row,
+.template_ceremony_popup .template_varaus_user_row .set_clock_lock,
+.template_ceremony_popup .template_varaus_office_row .remove_row,
+.template_ceremony_popup .template_varaus_office_row .set_office_expense,
+.template_ceremony_popup .template_varaus_office_row .set_clock_lock {
+    cursor: pointer;
+}
+.template_ceremony_popup .template_varaus_JPS_area {
+    display: none;
+    border: 10px solid #aaa;
+    font-size: 14px;
+    margin: 100px 50px;
+    padding: 10px;
+}
+.template_ceremony_popup .top_separated {
+    border-top: solid 10px #aaa;
+}
+.template_ceremony_popup .template_varaus_setusertimes, .template_ceremony_popup .template_varaus_setofficetimes {
+    float: right;
+    margin-right: 15px;
+}
+.template_ceremony_popup .template_varaus_tilaisuuteen .checkbox {
+    line-height: 20px;
+    margin: 5px;
+}
+.template_ceremony_sms_popup iframe {
+    border: none;
+    width: 100%;
+    height: 400px;
+}
+.template_ceremony_client_popup {
+    width: 300px;
+    height: 200px;
+}
+.template_ceremony_charged_popup iframe {
+    border: none;
+    width: 100%;
+    height: 600px;
+}
+.template_leirikeskus_popup iframe {
+    border: none;
+    width: 100%;
+    height: 600px;
+}
+.template_ceremony_popup .ceremony_flag_double {
+    color: #906;
+}
+.template_ceremony_popup .template_varaus_flag_table {
+    width: 100%;
+    clear: both;
+}
+.template_ceremony_popup .template_flag_container {
+    float: left;
+    margin: 5px;
+    width: 250px;
+}
+.template_ceremony_popup .template_varaus_flag_table td {
+    padding: 5px 0px;
+}
+.template_ceremony_popup .template_ceremony_result {
+    border: solid 1px #aaa;
+    background-color: #ffffba;
+    margin-bottom: 10px;
+}
+.template_ceremony_popup .template_ceremony_result .label {
+    color: #906;
+    font-weight: bold;
+}
+.template_ceremony_popup .template_ceremony_result .title {
+    text-decoration: underline;
+}
+.template_ceremony_popup .template_ceremony_result .rlinks {
+    display: block;
+    margin: 5px 0px;
+}
+.template_ceremony_popup .template_ceremony_result .witharrow {
+    margin-right: 10px;
+}
+.template_ceremony_popup .template_varaus_tilastot,
+.ceremony_info_table .template_varaus_tilastot,
+.leirikeskus_2017_stats .template_varaus_tilastot,
+.jp_2017_stats .template_varaus_tilastot {
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+}
+.template_ceremony_popup .template_varaus_tilastot.good,
+.ceremony_info_table .template_varaus_tilastot.good,
+.leirikeskus_2017_stats .template_varaus_tilastot.good,
+.jp_2017_stats .template_varaus_tilastot.good {
+    background-image: url('tick-circle-frame.png');
+}
+.template_ceremony_popup .template_varaus_tilastot.bad,
+.ceremony_info_table .template_varaus_tilastot.bad,
+.leirikeskus_2017_stats .template_varaus_tilastot.bad,
+.jp_2017_stats .template_varaus_tilastot.bad {
+    background-image: url('red_exclamation.png');
+}
+.template_ceremony_popup .template_varaus_tilastot.ugly,
+.ceremony_info_table .template_varaus_tilastot.ugly,
+.leirikeskus_2017_stats .template_varaus_tilastot.ugly,
+.jp_2017_stats .template_varaus_tilastot.ugly {
+    background-image: url('question-frame.png');
+}
+.template_ceremony_popup .template_varaus_offices_selector2 {
+    margin-bottom: 10px;
+}
+
+/* Event editor */
+.template_eventEditor .main_table {
+    width: 100%;
+}
+.template_eventEditor .template_minical_list_area {
+    width: 240px;
+    height: 300px;
+}
+.template_eventEditor .template_minical_list {
+    height: 290px;
+}
+
+/* Info editor */
+.template_infoEditor .main_table {
+    width: 100%;
+}
+.template_infoEditor .template_minical_list_area {
+    width: 240px;
+    height: 300px;
+}
+.template_infoEditor .template_minical_list {
+    height: 290px;
+}
+.template_infoEditor .remove_row {
+    cursor: pointer;
+}
+.template_infoEditor_user_row td, .template_infoEditor_office_row td {
+    padding: 2px;
+}
+.template_infoEditor_user_row:hover, .template_infoEditor_office_row:hover {
+    background-color: #ccc;
+}
+
+.template_submenu_top {
+    height: 39px;
+    background-color: #e9e9e9;
+    background-image: url('submenu.png');
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+.template_submenu_top span.subnavi_item {
+    display: block;
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    margin-top: 8px;
+    padding: 0px 7px;
+}
+.template_submenu_top span.subnavi_item img {
+    vertical-align: middle;
+}
+.template_submenu_top span.subnavi_sep {
+    display: block;
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    margin-top: 8px;
+    padding: 0px;
+    border-left: solid 1px #666;
+}
+.template_submenu_top span.subnavi {
+    display: block;
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    margin-top: 8px;
+    background-image: url('submenu_normal.png');
+    background-position: bottom;
+    background-repeat: repeat-x;
+    padding: 0px 7px;
+}
+.template_submenu_top span.subnavi.selected {
+    background-image: url('submenu_selected.png');
+}
+.template_submenu_top span.subnavi_separator_1,
+.template_submenu_top span.subnavi_separator_2,
+.template_submenu_top span.subnavi_separator_3,
+.template_submenu_top span.subnavi_separator_4,
+.template_submenu_top span.subnavi_separator_5,
+.template_submenu_top span.subnavi_separator_6,
+.template_submenu_top span.subnavi_separator_7 {
+    display: block;
+    float: left;
+    width: 5px;
+    height: 31px;
+    line-height: 31px;
+    margin-top: 8px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+.template_submenu_top span.subnavi_separator_1 {
+    width: 4px;
+    margin-left: 19px;
+    background-image: url('submenu_1.png');
+}
+.template_submenu_top span.subnavi_separator_2 {
+    width: 4px;
+    margin-left: 19px;
+    background-image: url('submenu_2.png');
+}
+.template_submenu_top span.subnavi_separator_3 {
+    background-image: url('submenu_3.png');
+}
+.template_submenu_top span.subnavi_separator_4 {
+    background-image: url('submenu_4.png');
+}
+.template_submenu_top span.subnavi_separator_5 {
+    background-image: url('submenu_5.png');
+}
+.template_submenu_top span.subnavi_separator_6 {
+    width: 4px;
+    margin-right: 19px;
+    background-image: url('submenu_6.png');
+}
+.template_submenu_top span.subnavi_separator_7 {
+    width: 4px;
+    margin-right: 19px;
+    background-image: url('submenu_7.png');
+}
+.template_submenu_bottom {
+    height: 39px;
+    background-color: #e9e9e9;
+    background-image: url('submenu.png');
+    background-position: top;
+    background-repeat: repeat-x;
+}
+.template_submenu_bottom span.subnavi_item {
+    display: block;
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    margin-bottom: 8px;
+    padding: 0px 7px;
+}
+.template_submenu_bottom span.subnavi_item img {
+    vertical-align: middle;
+}
+.template_submenu_bottom span.subnavi_sep {
+    display: block;
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    margin-bottom: 8px;
+    padding: 0px;
+    border-left: solid 1px #666;
+}
+.template_submenu_bottom span.subnavi {
+    display: block;
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    margin-bottom: 8px;
+    background-image: url('submenu2_normal.png');
+    background-position: top;
+    background-repeat: repeat-x;
+    padding: 0px 7px;
+}
+.template_submenu_bottom span.subnavi.selected {
+    background-image: url('submenu2_selected.png');
+}
+.template_submenu_bottom span.subnavi_separator_1,
+.template_submenu_bottom span.subnavi_separator_2,
+.template_submenu_bottom span.subnavi_separator_3,
+.template_submenu_bottom span.subnavi_separator_4,
+.template_submenu_bottom span.subnavi_separator_5,
+.template_submenu_bottom span.subnavi_separator_6,
+.template_submenu_bottom span.subnavi_separator_7 {
+    display: block;
+    float: left;
+    width: 5px;
+    height: 31px;
+    line-height: 31px;
+    margin-bottom: 8px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.template_submenu_bottom span.subnavi_separator_1 {
+    width: 4px;
+    margin-left: 19px;
+    background-image: url('submenu2_1.png');
+}
+.template_submenu_bottom span.subnavi_separator_2 {
+    width: 4px;
+    margin-left: 19px;
+    background-image: url('submenu2_2.png');
+}
+.template_submenu_bottom span.subnavi_separator_3 {
+    background-image: url('submenu2_3.png');
+}
+.template_submenu_bottom span.subnavi_separator_4 {
+    background-image: url('submenu2_4.png');
+}
+.template_submenu_bottom span.subnavi_separator_5 {
+    background-image: url('submenu2_5.png');
+}
+.template_submenu_bottom span.subnavi_separator_6 {
+    width: 4px;
+    margin-right: 19px;
+    background-image: url('submenu2_6.png');
+}
+.template_submenu_bottom span.subnavi_separator_7 {
+    width: 4px;
+    margin-right: 19px;
+    background-image: url('submenu2_7.png');
+}
+
+
+@media print {
+    .noprint, .template_header, .template_main_footer, .template_mainmenu, .template_sidecal, .template_notifications,
+        .template_submenu_top, .template_submenu_bottom {
+        display: none !important;
+    }
+    .template_main_content {
+        margin: 0px;
+    }
+}
+
+
+.liturgia_popup, .buffet_popup, .tomag_popup {
+    min-width: 1000px;
+    max-width: 90%;
+    margin: 50px auto;
+}
+
+.liturgia_popup .template_main,
+.buffet_popup .template_main,
+.tomag_popup .template_main {
+    padding: 5px;
+}
+
+.liturgia_popup .template_main, .liturgia_popup .template_main td,
+.buffet_popup .template_main, .buffet_popup .template_main td,
+.tomag_popup .template_main, .tomag_popup .template_main td {
+    /* font-size: 12px; */
+}
+
+.liturgia_popup input, .liturgia_popup select, .liturgia_popup textarea,
+.tomag_popup input, .tomag_popup select, .tomag_popup textarea,
+.buffet_popup input, .buffet_popup select, .buffet_popup textarea {
+    /* font-size: 12px; */
+    font-family: Arial;
+}
+
+.tomag_popup #paivitaKaikki {
+    padding: 5px;
+    background: #ededed;
+    color: #000;
+    border: 1px solid #4f4e4e
+}
+.tomag_popup .template_button.paivitaYksi,.tomag_popup .template_button.paivitaYksiFake {
+    display: block; margin: 2px;
+}
+.tomag_popup .paikka_status { /*border: 1px solid #a0a0a0;*/ width: 50px; display: inline-block; cursor: pointer; }
+/* .tomag_popup .paikka_status.ok { background: green; }
+.tomag_popup .paikka_status.virhe { background: red; } */
+
+.tomag_popup .paikan_tiedot {
+    position: absolute; background: #fff; max-width: 500px;
+    border: 1px solid #666666; box-shadow: 0px 2px 5px #000;
+    padding: 2px; }
+    
+.buffet_popup #vapaa_selite, .buffet_popup #ruoka_aineallergiat { height: 100px; width: 90%; }
+.buffet_popup .buffet_buttons { width: 100%; }
+.buffet_popup .buffet_buttons input { margin-left: 5px; margin-right: 5px; }
+.buffet_popup .buffet_buttons .save { }
+.buffet_popup .buffet_buttons .print { margin-left: 100px; }
+.buffet_popup .buffet_buttons .delete { float: right; }
+.tarjoiluvarauksen_tiedot .underline { border: 1px solid #606060; }
+
+.not_checked { color: red; font-weight: bold; }
+
+.funeral_print, .baptism_print, .matrimony_print { width: 100%; border-collapse: collapse; }
+.funeral_print .intitletd, .baptism_print.intitletd, .matrimony_print .intitletd { font-weight: bold; }
+.funeral_print tr td, .baptism_print tr td, .matrimony_print tr td { border-bottom: 1px solid #aeaeae; padding: 5px; }
+.template_ceremony_popup .embedded_pvm { font-weight: bold; }
+
+div#sr_varausvahvistus { display: none; position: relative; background: #fff; border: 1px solid #aaaaaa; width: 300px; }
+div#sr_varausvahvistus .header { background: #efefef; font-weight: bold; }
+div#sr_varausvahvistus .footer { background: #efefef; }
+div#sr_varausvahvistus .footer .sulje { float: right; }
+div#sr_varausvahvistus .content { height: 100px; overflow-y: auto; margin: 0; padding: 0; }
+div#sr_varausvahvistus ul { padding: 2px; margin: 0; }
+div#sr_varausvahvistus ul li { border-bottom: 1px solid #303030; cursor: pointer; }
+div#sr_varausvahvistus ul li:hover { background: pink; }
+div#sr_varausvahvistus ul li.selected { background: pink; }
+
+/* CSS for Katrina3 Multiselector */
+.template_multisel { border: 1px solid #737373; min-width: 300px !important; }
+.template_multisel .header {
+    background-image: url('title_bg.png');
+    background-position: center center;
+    font-weight: bold;
+    color: #fff;
+    height: 20px;
+    line-height: 20px;
+    padding: 2px;
+}
+.template_multisel p.multisel_filter {
+    border: none;
+    border-bottom: solid 1px #999;
+    margin: 0px;
+    padding: 3px;
+    background-image: url("input_search.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+.template_multisel p.multisel_filter input {
+    border: medium none;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: transparent;
+}
+.template_multisel .content { max-height: 150px; overflow: auto; }
+.template_multisel .content.heightless { max-height: none; }
+.template_multisel .content ul { list-style: none; margin: 0; padding: 0; }
+.template_multisel .content ul li { cursor: pointer; padding: 2px; }
+.template_multisel .content ul li.header { background-color: #000; color: #fff; cursor: default; padding: 2px; }
+.template_multisel .content ul li:hover { background-color: #efefef; }
+.template_multisel .content ul li.header:hover { background-color: #000 !important; }
+.template_multisel .content ul li.sel { background-color: pink !important; }
+.template_multisel .content ul li.special { font-weight: bold; }
+.template_multisel .content ul li.linked_stat {
+    background-image: url('../../ikonit/chain.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+.template_multisel p.multisel_selectors {
+    border: none;
+    border-top: solid 1px #999;
+    margin: 0px;
+    padding: 0px;
+}
+.template_multisel p.multisel_selectors input {
+    padding-left: 25px;
+    cursor: pointer;
+}
+.template_multisel p.multisel_selectors .multisel_select_all {
+    padding-right: 5px;
+}
+.template_multisel p.multisel_selectors .multisel_select_none {
+    float: right;
+    padding-right: 5px;
+}
+.template_multisel .footer { border-top: 1px solid #737373; background: #ededed; font-weight: bold; color: #fff; padding: 2px; }
+
+/* Multiselector popup */
+.template_popups .template_multisel { border: 1px solid #737373; padding: 0;  max-height: 500px; overflow: auto; }
+.template_popups .template_multisel ul { border: none; list-style: none; margin: 0; padding: 0; }
+.template_popups .template_multisel ul li { cursor: pointer; padding: 2px; padding-right: 20px; }
+.template_multisel ul li.selected {
+    background-color: #ddd;
+    background-image: url('tick-circle-frame.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+.template_popups .template_multisel ul li:hover { background-color: #906; color: #fff; }
+.template_popups .template_multisel p.multisel_filter {
+    border: solid 1px #999;
+    border-bottom: none;
+    margin: 0px;
+    padding: 3px;
+    background-image: url("input_search.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+.template_popups .template_multisel p.multisel_filter input {
+    border: medium none;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: transparent;
+}
+.template_popups .template_multisel p.multisel_selectors {
+    border: solid 1px #999;
+    border-top: none;
+    margin: 0px;
+    padding: 0px;
+}
+.template_popups .template_multisel p.multisel_selectors span {
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.template_popups .template_multisel p.multisel_selectors span.multisel_select_all {
+    background-image: url('checkbox_checked.png');
+    padding-right: 25px;
+}
+.template_popups .template_multisel p.multisel_selectors span.multisel_select_none {
+    background-image: url('checkbox_empty.png');
+    float: right;
+    padding-right: 5px;
+}
+
+/* Search results */
+.template_popup_search_1 {
+    width: 500px;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+}
+.template_popup_search_1 ul {
+    max-height: 500px;
+    overflow: auto;
+}
+.template_popup_search_1 ul { list-style: none; }
+
+/* More detailed search results */
+.template_popup_search_2 {
+    width: 500px;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+}
+.template_popup_search_2 ul {
+    max-height: 500px;
+    overflow: auto;
+}
+
+/* Timepicker */
+.template_timepicker_icon {
+    cursor: pointer;
+    padding-left: 3px;
+}
+.template_timepicker td {
+    vertical-align: top;
+}
+.template_timepicker ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    border: solid 1px #000;
+    text-align: center;
+}
+.template_timepicker li {
+    margin: 0px;
+    padding: 0px 0px 2px 0px;
+    cursor: pointer;
+    width: 70px;
+}
+.template_timepicker li.selected {
+    background-color: #906;
+    color: #fff;
+}
+.template_timepicker li:hover {
+    background-color: #cc0d70;
+    color: #fff;
+}
+.template_timepicker li.picked {
+    background-color: #000;
+    color: #fff;
+}
+.template_timepicker li.disabled {
+    background-color: #999;
+    color: #fff;
+}
+.template_timepicker li.important {
+    font-weight: bold;
+}
+.template_timepicker input[name='empty'] {
+    float: right;
+}
+
+/* Vuoroselectr (timepicker related) */
+.vuoroselector_picker_status {
+    width: 90%;
+    margin: auto;
+}
+.vuoroselector_picker_status td,
+.vuoroselector_picker_status img {
+    vertical-align: middle;
+}
+.vuoroselector_picker_status .marked {
+    background-color: #906;
+    color: #fff;
+}
+
+/* 20ish rows of items in select boxes */
+.chzn-container .chzn-results{
+    max-height: 500px;
+}
+
+/* #5833 - sometimes extra white is annyoing to someone it seems ;) i don't get this one. -Petri */
+.chzn-drop { display: none; }
+.chzn-container-active .chzn-drop { display: block; }
+
+/* Tables formatting */
+.tekstiviestit_loki { border-collapse: collapse; width: 50%; }
+.tekstiviestit_loki thead th { }
+.tekstiviestit_loki tbody td { border: 1px solid #909090; padding: 5px; }
+
+.sr_tietojen_tuonti { border-collapse: collapse; }
+.sr_tietojen_tuonti td, .sr_tietojen_tuonti th { border: 1px solid #909090; padding: 5px; }
+
+/* I'm special? */
+.spec_info_div { padding: 1px; width: 96%; margin-right: auto; margin-left: auto; border: 1px solid #000; }
+
+/* Set visitors  */
+.template_popup_set_visitors { width: 300px; }
+.template_popup_set_visitors .template_main { padding: 5px; }
+.template_popup_set_visitors #tmp_eka_arvo, .template_popup_set_visitors #tmp_toka_arvo { width: 50px; }
+.template_popup_set_visitors #kavijamaaraOhje {
+    /* display: none; */
+    padding: 3px;
+    margin-top: 2px;
+    border: 1px solid #909090;
+}
+
+.history_container { }
+.history_container .history_content { display: none; background: #efefef; border: 1px solid #808080; padding: 3px; }
+
+.waiting_conf { background: #cbcbcb; color: #000; font-style: italic; }
+
+.ceremony_info_table td { padding-bottom: 7px; } /* #6335 */
+
+.extra_holyday_color { border: 1px solid #505050; margin-left: 2px; width: 12px; float: left; line-height: 13px; }
+.extra_holyday_color.green { background: green; }
+.extra_holyday_color.red { background: red; }
+.extra_holyday_color.violet { background: #93f; }
+.extra_holyday_color.blue { background: blue; }
+.extra_holyday_color.white { background: white; }
+.extra_holyday_color.black { background: black; }
+.extra_holyday_candle {
+    background-image: url('../../ikonit/fire-big.png');
+    background-repeat: no-repeat;
+    margin-left: 2px;
+    padding-left: 18px;
+    float: left;
+    width: 12px;
+    border: 1px solid #505050;
+    line-height: 13px;
+}
+
+.text_click { cursor: pointer; }
+
+.template_ceremony_popup #diakonia_tapahtuman_tiedot_kirjoitus,
+.template_ceremony_popup #diakonia_tapahtuman_tiedot_luku {
+    padding: 5px;
+    background: pink;
+    border: 1px solid #909090;
+}
+.template_ceremony_popup #diakonia_tapahtuman_tiedot_kirjoitus {
+    display: none;
+}
+
+.tomag_popup #henki_ja_elama { width: 100%; }
+.tomag_popup #henki_ja_elama .required,
+.embedded_form td.required,
+.toimituslomake_form td.required {
+    padding-right: 20px;
+    margin-top: 0px;
+    background-image: url('../../ikonit/ball_red.png');
+    background-repeat: no-repeat;
+    background-position: right 0px; }
+.embedded_form td.errors,
+.toimituslomake_form td.errors {
+    background: pink;
+}
+.tomag_popup #henki_ja_elama .vasen { width: 20%; }
+.tomag_popup #henki_ja_elama .keski { width: 40%; }
+.tomag_popup #henki_ja_elama .oikea { width: 40%; }
+.tomag_popup #henki_ja_elama .oikea fieldset { border: 1px solid #999999;}
+.tomag_popup #henki_ja_elama .oikea #he_esikatselu_html { height: 200px; overflow-y: auto; }
+.tomag_popup #henki_ja_elama #he_kaupunginosa .content { max-height: 225px; }
+.tomag_popup #henki_ja_elama #he_esikatselu_html { font-size: 120%; }
+.tomag_popup #henki_ja_elama #he_esikatselu_html h1.kaupunginosa {
+    background: #ccc; text-decoration: none; padding: 0.2em; font-size: 130%;
+}
+.tomag_popup #henki_ja_elama #he_esikatselu_html h2.luokitus { font-size: 110%; margin: 15px 0 0 0; }
+.tomag_popup #henki_ja_elama #he_esikatselu_html p { margin: 0; padding: 0; }
+
+.template_popmenu .historycontent { width: 400px; border-collapse: collapse; }
+.template_popmenu .historycontent td { border: 1px solid #909090; }
+
+/* Fix (#6963) */
+.chosen-container .disabled-result {
+    color: #000 !important;
+}
+
+/* Chosen "horizontal page scroll to the left" fix (#6396) */
+.chosen-container .chosen-drop {
+    height: 0;
+    left: 0;
+    visibility: hidden;
+}
+.chosen-container.chosen-with-drop .chosen-drop {
+    height: auto;
+    visibility: visible;
+}
+.chosen-container-single.chosen-container-single-nosearch .chosen-search {
+    height: 0;
+    visibility: hidden;
+}
+
+#embedded_history { padding: 10px; }
+
+label.settings_srk_koodi {
+    width: 250px;
+    display: inline-block;
+}
+.template_stats_form {
+    max-width: 1100px;
+}
+.template_stats_form .stats_warning {
+    color: red;
+    min-width: 150px;
+}
+
+/* "Näytä varauksen toimituslomaketiedot" -popup */
+.template_embedded_form_info_popup {
+    width: 600px;
+}
+.template_embedded_form_info_popup .template_main {
+    height: 500px;
+    overflow-y: auto;
+}
+.template_embedded_form_info_popup .template_main .title {
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* "Näytä varauksen toimituslomaketiedot" -popup */
+
+p.waitplox { width: 200px; text-align: center; }
+
+small.labelinfo {
+    display: block;
+    max-width: 150px;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Give tables a bit more space when used within the responsive divs below */
+table.top_padded {
+    padding-top: 8px;
+}
+
+/* Responsive row */
+.resprow {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    clear: left; /* Needs to figure out a less destructive way some day*/
+}
+/* Responsive column, see the max-width reactions below */
+.respcol {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+/* This prevents columns from stretching out too far, used when labeling input fields */
+.respcol.label {
+    max-width: 200px;
+}
+/* Container for responsive column content */
+.respcont {
+    padding: 1px;
+}
+/* Because input fields are usually higher than normal paragraph text content you can add the noninput class to the container to mitigate this problem */
+.respcont.noninput {
+    padding-top: 8px;
+}
+/* Content don't always have margins on the sides so here's a class to add that */
+.respcont.sidepad {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* Because input padding makes 100% width inputs overflow you can add the input class to the container to mitigate this problem */
+.respcont.input {
+    padding-right: 10px;
+}
+.respcont.input.sidepad {
+    padding-right: 20px;
+}
+.respcont input,
+.respcont button,
+.respcont textarea,
+.respcont select {
+    margin: 0;
+}
+/* After responsive content we need to clear the area */
+.clear {
+    clear: left;
+}
+/* Responsive columns that are (x)% wide */
+.w10pc { width: 10%; }
+.w20pc { width: 20%; }
+.w25pc { width: 25%; }
+.w30pc { width: 30%; }
+.w33pc { width: 33%; }
+.w40pc { width: 40%; }
+.w50pc { width: 50%; }
+.w60pc { width: 60%; }
+.w70pc { width: 70%; }
+.w80pc { width: 80%; }
+.w90pc { width: 90%; }
+/* Columns inside responsive rows collapse when max-width goes below (x)px */
+@media all and (max-width: 600px) {
+    .resprow.r600px > .respcol {
+        width: 100%;
+    }
+}
+@media all and (max-width: 950px) {
+    .resprow.r950px > .respcol {
+        width: 100%;
+    }
+}
+@media all and (max-width: 1200px) {
+    .resprow.r1200px > .respcol {
+        width: 100%;
+    }
+}
+
+#tomag_image_preview { margin-top: 5px; }
+#tomag_image_preview .image { border: 1px solid #666; padding: 5px; }
+#tomag_image_preview .text { text-align: center; }
+.tomag_popup #btnTomagAttachment {
+    font-size: 13px;
+    font-weight: bold;
+    border: solid 1px #999;
+    text-align: center;
+    padding: 5px 5px 5px 26px;
+    background-image: url('button_white_add_bg.png');
+    background-position: left center;
+    box-shadow: 0px 2px 3px #000;
+    cursor: pointer;
+    max-width: 150px;
+}
+                
+.ceremony_info_table .participation_unconfirmed {
+    border: 1px solid #333;
+}
+.ceremony_info_table .participation_yes {}
+.ceremony_info_table .participation_no {}
+
+/* User not allowed set priority for user */
+.template_ceremony_popup .userPriority.disabled,
+.liturgia_popup .userPriority.disabled,
+.ceremony_info_table .participation_unconfirmed.disabled,
+.ceremony_info_table .participation_yes.disabled,
+.ceremony_info_table .participation_no.disabled {
+    cursor: no-drop;
+}
+
+.varauslistaus_print { font-size: 11px; }
+
+/* Stupid IE 11 fix (#14343) */
+.toimituslomake_form .chosen-container { display: inherit; }
+
+.ews-room-config-name{
+  max-width: 350px;
+}
+
+/* Some air to varausvahvistukset */
+.ar_varausvahvistus_laheta{
+  margin: 5px 0;
+}
+#nayta_ar_varausvahvistus{
+  display: block;
+}
+.email-sender-title{
+  display: inline-block;
+  padding-top: 4px;
+}
+/* Exciting nothingness below */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* What a ride! */
+/* Pony ride? */

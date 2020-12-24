@@ -3,6 +3,7 @@
     "extends": [
         "tslint:recommended"
     ],
+    "lib": "es2015",
     "jsRules": {},
     "rulesDirectory": [],
     "rules": {

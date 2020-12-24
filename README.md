@@ -1,0 +1,1 @@
+Tehty hääparien osoitelistauksen hankkimiseen Katrinan html-sivulta.
