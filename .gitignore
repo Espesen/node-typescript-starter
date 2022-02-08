@@ -1,3 +1,6 @@
 lib/
+spec/**/*.js
 node_modules/
 .vscode/
+.history/
+

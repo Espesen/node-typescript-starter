@@ -1,8 +1,10 @@
 {
+  
+  "include": ["scripts/spec"],
   "compilerOptions": {
     "target": "es2017",
     "module": "commonjs",
-    "outDir": "lib/",
+    "outDir": "spec/",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
